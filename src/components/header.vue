@@ -5,37 +5,40 @@ export default {
 </script>
 
 <template>
-  <div>
-    <div class="logo"></div>
-    <ul>
-      <li>charaters</li>
-      <li>comics</li>
-      <li>movies</li>
-      <li>tv</li>
-      <li>games</li>
-      <li>collectibles</li>
-      <li>videos</li>
-      <li>fans</li>
-      <li>news</li>
-      <li>shop</li>
-    </ul>
+  <div class="root">
+    <div class="logo">
+      <img src="../assets/img/dc-logo.png" alt="logo">
+    </div>
+    <nav>
+      <ul>
+        <li>charaters</li>
+        <li>comics</li>
+        <li>movies</li>
+        <li>tv</li>
+        <li>games</li>
+        <li>collectibles</li>
+        <li>videos</li>
+        <li>fans</li>
+        <li>news</li>
+        <li>shop</li>
+      </ul>
+    </nav>
   </div>
 </template>
 
-<style>
+<style scoped>
   .root{
-    background-color: black;
     display: flex;
     justify-content: center;
     align-items: center;
     justify-content: space-between;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 30px;
+    height: 120px;
+    margin-left: 16%;
+    margin-right: 16%;
   }
 
 img{
-  width: 54px;
+  width: 80px;
 }
 
 ul{
@@ -43,20 +46,15 @@ ul{
 }
 
 li{
+  text-transform: uppercase;
   list-style: none;
-  margin: 12px;
+  margin: 10px;
+  font-weight: bold;
 }
 
 li:hover{
-  color: red;
+  color: #0282F9;
   cursor: pointer;
 }
-
-li:hover::after{
-  content:'';
-  width: 100%;
-  display: block;
-  height: 6px;
-  background-color: red;
-}
 </style>
+
