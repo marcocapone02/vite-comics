@@ -9,18 +9,16 @@ export default {
 }
 </script>
 <template>
-
       <div class="card">
         <img :src="thumb">
         <span>{{ series }}</span>
       </div>
-
 </template>
 
 
 <style lang="scss" scoped>
 .container{
-  padding: 0px 300px;
+  padding: 0px 200px;
 }
 
 .card{
@@ -41,8 +39,8 @@ img{
   }
 }
 
-
 span{
   color: white;
 }
+
 </style>

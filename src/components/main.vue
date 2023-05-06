@@ -16,15 +16,15 @@ export default {
 
 
     <div class="root">
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
-      <card series="series"/>
+      <card series="title"/>
+      <card series="title"/>
+      <card series="title"/>
+      <card series="title"/>
+      <card series="title"/>
+      <card series="title"/>
+      <card series="title"/>
+      <card series="title"/>
+      <card series="title"/>
     </div>
     
   </div>
