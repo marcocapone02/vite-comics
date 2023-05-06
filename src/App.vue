@@ -10,18 +10,14 @@ export default {
     headerVue,
     mainVue,
     footerVue,
-    cardVue
   }
 }
 </script>
 
 <template>
-  <div class="">
     <headerVue />
-    <cardVue/>
     <mainVue />
     <footerVue />
-  </div>
 </template>
 
 <style lang="scss">

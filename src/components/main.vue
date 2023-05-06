@@ -1,3 +1,4 @@
+
 <script>
 import card from './card.vue';
 export default {
@@ -10,17 +11,30 @@ export default {
 </script>
 
 <template>
-  <div class="img"></div>
-  <div class="root">
-    <card v-for="(serie, index) in series" :series="serie.series" :thumb="serie.thumb" :key="index" />
+  <div class="">
+    <div class="img"></div>
+
+
+    <div class="root">
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+      <card series="series"/>
+    </div>
+    
   </div>
 </template>
 
 <style scoped>
 
 .img{
-  height: 50vh;
   background-size: cover;
+  height: 40vh;
   background-image: url(../assets/img/jumbotron.jpg);
 }
 .root{
@@ -28,7 +42,8 @@ export default {
   justify-content: center;
   align-items: center;
   width: 100%;
-  background-color: ;
+  height: 100px;
+  background-color: black;
 }
 h1{
   color: white;

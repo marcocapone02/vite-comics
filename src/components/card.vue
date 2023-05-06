@@ -20,25 +20,24 @@ export default {
 
 <style lang="scss" scoped>
 .container{
-  padding: 0px 150px;
+  padding: 0px 300px;
 }
 
 .card{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: black;
-  float: left;
+  background-color:black;
   width: calc(100% / 6);
-  margin-top: 2.5rem;
-  padding: 0 10px;
+  padding: 0 15px;
   border: 0px;
+  margin-top: 30px;
 img{
   display: flex;
   justify-content: center;
   width: 50%;
   height: 50%;
-  margin-bottom: .4rem;
+  margin-bottom: 30px;
   }
 }
 
